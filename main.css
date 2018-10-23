@@ -1,0 +1,44 @@
+body {
+  background-color: white;
+}
+
+.container {
+  background-color: grey;
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px 200px 200px;
+  grid-template-rows: 30px 80px
+}
+
+#header_bar {
+  grid-column: span 2;
+
+}
+
+#admin {
+  position: absolute; right: 0 ;
+}
+
+#card_deck {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100vw;
+
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  height: 250px;
+  background-color: #B3C0A4;
+  padding: 5px;
+  margin: 10px;
+}
+
+.card_pic {
+  height: 100px;
+  background-image: url(https://i.ytimg.com/vi/9QS0q3mGPGg/hqdefault.jpg);
+  background-size: contain;
+}
